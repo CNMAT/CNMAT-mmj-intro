@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 355.0, 166.0, 640.0, 480.0 ],
+		"rect" : [ 95.0, 113.0, 617.0, 235.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,20 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "gridded",
-		"boxes" : [  ],
+		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 90.0, 60.0, 150.0, 100.0 ],
+					"style" : "",
+					"text" : "#1 #2 etc\n\npatcherargs\n\nattributes vs arguments\n\ns/r init"
+				}
+
+			}
+ ],
 		"lines" : [  ],
 		"dependency_cache" : [  ],
 		"autosave" : 0,
