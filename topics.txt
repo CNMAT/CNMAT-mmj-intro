@@ -1,0 +1,10 @@
+--look at depot
+--threads
+--ilya materials
+
+aliasing
+timing
+function
+priority
+etc
+messages to msp/max etc
