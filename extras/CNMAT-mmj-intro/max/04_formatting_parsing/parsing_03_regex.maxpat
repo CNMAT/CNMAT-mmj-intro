@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 5,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 4,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 407.0, 423.0, 1089.0, 564.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 65.0, 108.0, 1089.0, 564.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,13 +46,14 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
-							"minor" : 3,
-							"revision" : 5,
-							"architecture" : "x86",
+							"major" : 8,
+							"minor" : 0,
+							"revision" : 4,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
+						"classnamespace" : "box",
 						"rect" : [ 59.0, 104.0, 1111.0, 495.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -79,7 +81,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "gridded",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-16",
@@ -87,8 +88,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 543.0, 33.0, 317.0, 20.0 ],
-									"presentation_rect" : [ 543.0, 33.0, 0.0, 0.0 ],
-									"style" : "",
 									"text" : "catch everything after and including the last path segment"
 								}
 
@@ -100,8 +99,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 745.9375, 194.0, 154.75, 22.0 ],
-									"presentation_rect" : [ 742.75, 195.0, 0.0, 0.0 ],
-									"style" : "",
 									"text" : "print matched @popup 1"
 								}
 
@@ -114,7 +111,6 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 712.75, 123.0, 151.75, 22.0 ],
-									"style" : "",
 									"text" : "regexp .*/.*/.*(.*\\\\w+)/+"
 								}
 
@@ -127,8 +123,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 712.75, 66.0, 140.0, 22.0 ],
-									"presentation_rect" : [ 712.75, 70.0, 0.0, 0.0 ],
-									"style" : "",
 									"text" : "/phee/phi/pho/feeph/fum"
 								}
 
@@ -141,8 +135,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 543.0, 66.0, 133.0, 22.0 ],
-									"presentation_rect" : [ 543.0, 70.0, 0.0, 0.0 ],
-									"style" : "",
 									"text" : "/one/two/three/four/five"
 								}
 
@@ -154,8 +146,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 51.0, 251.0, 213.0, 20.0 ],
-									"presentation_rect" : [ 51.0, 251.0, 0.0, 0.0 ],
-									"style" : "",
 									"text" : "catch the second to last path segment"
 								}
 
@@ -167,8 +157,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 253.9375, 417.0, 154.75, 22.0 ],
-									"presentation_rect" : [ 250.75, 413.0, 0.0, 0.0 ],
-									"style" : "",
 									"text" : "print matched @popup 1"
 								}
 
@@ -181,7 +169,6 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 220.75, 345.0, 151.75, 22.0 ],
-									"style" : "",
 									"text" : "regexp (\\\\w+)/+"
 								}
 
@@ -194,8 +181,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 220.75, 288.0, 140.0, 22.0 ],
-									"presentation_rect" : [ 227.0, 288.0, 0.0, 0.0 ],
-									"style" : "",
 									"text" : "/phee/phi/pho/feeph/fum"
 								}
 
@@ -208,8 +193,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 51.0, 288.0, 133.0, 22.0 ],
-									"presentation_rect" : [ 51.0, 288.0, 0.0, 0.0 ],
-									"style" : "",
 									"text" : "/one/two/three/four/five"
 								}
 
@@ -222,7 +205,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 367.0, 120.0, 110.0, 33.0 ],
-									"style" : "",
 									"text" : "< account for all 5 and catch the 3rd"
 								}
 
@@ -234,7 +216,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 38.0, 29.0, 195.0, 20.0 ],
-									"style" : "",
 									"text" : "5 delineations in an address space"
 								}
 
@@ -246,7 +227,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 237.75, 194.0, 142.0, 22.0 ],
-									"style" : "",
 									"text" : "print matched @popup 1"
 								}
 
@@ -259,7 +239,6 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 207.75, 123.0, 139.0, 22.0 ],
-									"style" : "",
 									"text" : "regexp /.+/.+/(\\\\w+)/.+/.+"
 								}
 
@@ -272,7 +251,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 207.75, 66.0, 140.0, 22.0 ],
-									"style" : "",
 									"text" : "/phee/phi/pho/feeph/fum"
 								}
 
@@ -285,7 +263,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 38.0, 66.0, 133.0, 22.0 ],
-									"style" : "",
 									"text" : "/one/two/three/four/five"
 								}
 
@@ -362,11 +339,9 @@
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
-						"style" : "",
 						"tags" : ""
 					}
 ,
-					"style" : "",
 					"text" : "p osc_examples"
 				}
 
@@ -378,8 +353,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 520.0, 243.5, 115.0, 22.0 ],
-					"presentation_rect" : [ 521.0, 241.0, 0.0, 0.0 ],
-					"style" : "",
 					"text" : "print sub @popup 1"
 				}
 
@@ -392,8 +365,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 520.0, 120.0, 153.0, 22.0 ],
-					"presentation_rect" : [ 531.0, 125.0, 0.0, 0.0 ],
-					"style" : "",
 					"text" : "spaces between the words"
 				}
 
@@ -406,7 +377,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 520.0, 170.0, 84.0, 22.0 ],
-					"style" : "",
 					"text" : "substitute a /"
 				}
 
@@ -418,8 +388,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 363.0, 150.0, 71.0, 20.0 ],
-					"presentation_rect" : [ 385.0, 155.0, 0.0, 0.0 ],
-					"style" : "",
 					"text" : "substitution"
 				}
 
@@ -431,8 +399,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 160.0, 460.0, 111.0, 20.0 ],
-					"presentation_rect" : [ 163.0, 457.0, 0.0, 0.0 ],
-					"style" : "",
 					"text" : "backrefrences"
 				}
 
@@ -444,8 +410,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 110.0, 90.0, 111.0, 20.0 ],
-					"presentation_rect" : [ 104.0, 93.0, 0.0, 0.0 ],
-					"style" : "",
 					"text" : "backrefrences"
 				}
 
@@ -457,7 +421,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 446.0, 400.0, 111.0, 20.0 ],
-					"style" : "",
 					"text" : "class of characters"
 				}
 
@@ -470,7 +433,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 756.0, 50.0, 275.0, 409.0 ],
-					"style" : "",
 					"text" : "\n.       - Any Character Except New Line\n\\d      - Digit (0-9)\n\\D      - Not a Digit (0-9)\n\\w      - Word Character (a-z, A-Z, 0-9, _)\n\\W      - Not a Word Character\n\\s      - Whitespace (space, tab, newline)\n\\S      - Not Whitespace (space, tab, newline)\n\n\\b      - Word Boundary\n\\B      - Not a Word Boundary\n^       - Beginning of a String\n$       - End of a String\n\n[]      - Matches Characters in brackets\n[^ ]    - Matches Characters NOT in brackets\n|       - Either Or\n( )     - Group\n\nQuantifiers:\n*       - 0 or More\n+       - 1 or More\n?       - 0 or One\n{3}     - Exact Number\n{3,4}   - Range of Numbers (Minimum, Maximum)\n\n\n#### Sample Regexs ####\n\n[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+"
 				}
 
@@ -484,7 +446,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 650.0, 510.0, 391.0, 35.0 ],
-					"style" : "",
 					"text" : ";\rmax launchbrowser https://www.regular-expressions.info/quickstart.html"
 				}
 
@@ -497,8 +458,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 230.0, 350.0, 55.0, 22.0 ],
-					"presentation_rect" : [ 534.0, 361.0, 0.0, 0.0 ],
-					"style" : "",
 					"text" : "o.collect"
 				}
 
@@ -510,7 +469,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 137.0, 500.0, 133.0, 22.0 ],
-					"style" : "",
 					"text" : "print backref @popup 1"
 				}
 
@@ -523,8 +481,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 154.0, 350.0, 48.0, 22.0 ],
-					"presentation_rect" : [ 484.0, 361.0, 0.0, 0.0 ],
-					"style" : "",
 					"text" : "o.route"
 				}
 
@@ -537,8 +493,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 60.0, 350.0, 69.0, 22.0 ],
-					"presentation_rect" : [ 434.0, 361.0, 0.0, 0.0 ],
-					"style" : "",
 					"text" : "o.compose"
 				}
 
@@ -551,7 +505,6 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 119.0, 430.0, 91.0, 22.0 ],
-					"style" : "",
 					"text" : "regexp o.(\\\\w+)"
 				}
 
@@ -564,8 +517,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 446.0, 330.0, 34.0, 22.0 ],
-					"presentation_rect" : [ 584.0, 41.0, 0.0, 0.0 ],
-					"style" : "",
 					"text" : "groy"
 				}
 
@@ -577,7 +528,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 380.0, 500.0, 129.0, 22.0 ],
-					"style" : "",
 					"text" : "print match @popup 1"
 				}
 
@@ -590,7 +540,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 396.0, 330.0, 34.0, 22.0 ],
-					"style" : "",
 					"text" : "gray"
 				}
 
@@ -603,7 +552,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 346.0, 330.0, 34.0, 22.0 ],
-					"style" : "",
 					"text" : "grey"
 				}
 
@@ -616,7 +564,6 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 346.0, 400.0, 87.0, 22.0 ],
-					"style" : "",
 					"text" : "regexp gr[ae]y"
 				}
 
@@ -628,8 +575,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 330.0, 250.0, 115.0, 22.0 ],
-					"presentation_rect" : [ 342.0, 313.0, 0.0, 0.0 ],
-					"style" : "",
 					"text" : "print sub @popup 1"
 				}
 
@@ -642,8 +587,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 330.0, 30.0, 153.0, 22.0 ],
-					"presentation_rect" : [ 342.0, 23.0, 0.0, 0.0 ],
-					"style" : "",
 					"text" : "spaces between the words"
 				}
 
@@ -656,7 +599,6 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 330.0, 120.0, 137.0, 22.0 ],
-					"style" : "",
 					"text" : "regexp \\\\s @substitute /"
 				}
 
@@ -668,7 +610,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 50.0, 290.0, 115.0, 22.0 ],
-					"style" : "",
 					"text" : "print sub @popup 1"
 				}
 
@@ -680,7 +621,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 129.5, 170.0, 155.0, 22.0 ],
-					"style" : "",
 					"text" : "print unmatched @popup 1"
 				}
 
@@ -692,7 +632,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 76.5, 250.0, 135.0, 22.0 ],
-					"style" : "",
 					"text" : "print backref @popup 1"
 				}
 
@@ -705,7 +644,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 130.0, 30.0, 65.0, 22.0 ],
-					"style" : "",
 					"text" : "applejuice"
 				}
 
@@ -718,7 +656,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 50.0, 30.0, 56.0, 22.0 ],
-					"style" : "",
 					"text" : "applepie"
 				}
 
@@ -731,7 +668,6 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 50.0, 120.0, 125.0, 22.0 ],
-					"style" : "",
 					"text" : "regexp apple(pi|juice)"
 				}
 
@@ -744,8 +680,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 410.0, 70.0, 150.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 410.0, 70.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -878,13 +813,7 @@
 			}
  ],
 		"dependency_cache" : [  ],
-		"autosave" : 0,
-		"bgfillcolor_type" : "gradient",
-		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-		"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-		"bgfillcolor_angle" : 270.0,
-		"bgfillcolor_proportion" : 0.39
+		"autosave" : 0
 	}
 
 }
